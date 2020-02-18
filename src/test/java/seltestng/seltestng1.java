@@ -1,6 +1,8 @@
 package seltestng;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
@@ -25,7 +27,7 @@ public class seltestng1 {
 	driver.findElement(By.name("click")).click();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	String test = driver.findElement(By.name("test")).getText();
-	assertEquals(test, "Login Succeeded");
+	AssertJUnit.assertEquals(test, "Login Succeeded");
 	System.out.println("Test Succeeded!!");
 	driver.quit();
 		
