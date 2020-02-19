@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12875" started-at="2020-02-18T21:34:44Z" finished-at="2020-02-18T21:34:57Z">
+  <suite name="Default suite" duration-ms="12136" started-at="2020-02-19T01:19:20Z" finished-at="2020-02-19T01:19:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12875" started-at="2020-02-18T21:34:44Z" finished-at="2020-02-18T21:34:57Z">
+    <test name="Default test" duration-ms="12136" started-at="2020-02-19T01:19:20Z" finished-at="2020-02-19T01:19:33Z">
       <class name="seltestng.seltestng1">
-        <test-method status="PASS" signature="runFromSeltestng()[pri:0, instance:seltestng.seltestng1@29ee9faa]" name="runFromSeltestng" duration-ms="12833" started-at="2020-02-18T21:34:44Z" finished-at="2020-02-18T21:34:57Z">
+        <test-method status="PASS" signature="runFromSeltestng()[pri:0, instance:seltestng.seltestng1@29ee9faa]" name="runFromSeltestng" duration-ms="12103" started-at="2020-02-19T01:19:20Z" finished-at="2020-02-19T01:19:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runFromSeltestng -->

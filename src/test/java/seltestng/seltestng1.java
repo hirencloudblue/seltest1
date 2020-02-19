@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 // import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 
 
@@ -23,6 +24,9 @@ public class seltestng1 {
 	//ChromeOptions chromeOptions = new ChromeOptions();
 	// chromeOptions.addArguments("--headless");
 	// WebDriver driver = new ChromeDriver(chromeOptions);
+	
+	FirefoxOptions firefoxOptions = new FirefoxOptions();
+	firefoxOptions.setHeadless(true);
 
 	WebDriver driver = new FirefoxDriver();
 	driver.get("http://192.168.1.90:3001/");
