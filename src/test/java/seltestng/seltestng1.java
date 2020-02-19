@@ -28,8 +28,8 @@ public class seltestng1 {
 	//chromeOptions.addArguments("--headless");
 	 //WebDriver driver = new ChromeDriver(chromeOptions);
 	
-	FirefoxOptions firefoxOptions = new FirefoxOptions();
-	firefoxOptions.setHeadless(true);
+	//FirefoxOptions firefoxOptions = new FirefoxOptions();
+	//firefoxOptions.setHeadless(true);
 	WebDriver driver = new FirefoxDriver();
 	//driver = new FirefoxDriver();
 	driver.get("http://192.168.1.90:3001/");
