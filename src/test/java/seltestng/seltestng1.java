@@ -18,7 +18,7 @@ public class seltestng1 {
 	public static void runFromSeltestng()
 	{
 	// System.setProperty("webdriver.chrome.driver","D:\\chromedriver80.exe");
-	System.setProperty("webdriver.gecko.driver", "/root/Downloads/geckodriver");
+	System.setProperty("webdriver.gecko.driver", "geckodriver");
 	System.out.println("Hi This is a Selenium Test Case");
 	//ChromeOptions chromeOptions = new ChromeOptions();
 	// chromeOptions.addArguments("--headless");
